@@ -12,14 +12,17 @@
 
 ## 🔗 Live Demo
 
-**[→ taskflow.up.railway.app](https://your-app.up.railway.app)**  
-*(Replace with your actual Railway URL)*
+**[→ taskflow.up.railway.app](team-task-manager-production-cdcc.up.railway.app)**  
 
 ---
 
 ## 📸 Screenshots
 
-> *Add 2–3 screenshots here after deployment — paste image URLs from GitHub or Imgur.*
+<img width="1600" height="809" alt="WhatsApp Image 2026-05-03 at 1 46 51 AM" src="https://github.com/user-attachments/assets/9bb646c9-5e93-4776-9505-ddaee3a1d136" />
+
+<img width="1917" height="911" alt="image" src="https://github.com/user-attachments/assets/ed4b9489-fa2d-465a-860e-d1c8465d4472" />
+
+<img width="1576" height="917" alt="image" src="https://github.com/user-attachments/assets/046d3bef-2ebc-422a-bd28-c68f52f9e832" />
 
 ---
 
