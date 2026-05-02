@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team Task Manager</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/app.css" />
+  </head>
+  <body>
+    <main id="app"></main>
+    <template id="auth-template">
+      <section class="auth-shell">
+        <div class="auth-art">
+          <div class="brand-mark">TT</div>
+          <h1>Team Task Manager</h1>
+          <p>Plan projects, assign work, and keep delivery visible from one focused workspace.</p>
+          <div class="auth-stats">
+            <span><strong>RBAC</strong> Admin and member access</span>
+            <span><strong>Live</strong> Dashboard and overdue work</span>
+            <span><strong>SQL</strong> Relational project data</span>
+          </div>
+        </div>
+        <form class="auth-panel" id="auth-form">
+          <div>
+            <p class="eyebrow">Workspace access</p>
+            <h2 id="auth-title">Sign in</h2>
+          </div>
+          <label class="field signup-only">
+            <span>Name</span>
+            <input name="name" autocomplete="name" />
+          </label>
+          <label class="field">
+            <span>Email</span>
+            <input name="email" type="email" autocomplete="email" required />
+          </label>
+          <label class="field">
+            <span>Password</span>
+            <input name="password" type="password" autocomplete="current-password" required />
+          </label>
+          <p class="meta signup-only">The first account becomes admin. Later accounts join as members.</p>
+          <button class="primary" type="submit">Continue</button>
+          <button class="link-button" id="toggle-auth" type="button">Create an account</button>
+          <p class="form-message" id="auth-message"></p>
+        </form>
+      </section>
+    </template>
+    <script src="/js/app.js"></script>
+  </body>
+</html>
