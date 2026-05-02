@@ -12,7 +12,7 @@
 
 ## 🔗 Live Demo
 
-**[→ taskflow.up.railway.app](team-task-manager-production-cdcc.up.railway.app)**  
+**[→ taskflow.up.railway.app](https://team-task-manager-production-cdcc.up.railway.app/)**  
 
 ---
 
